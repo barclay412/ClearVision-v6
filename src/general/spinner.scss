@@ -46,7 +46,13 @@
   %spinnerCirclePath {
     stroke: $main-color;
     %spinnerCirclePath3 {
-      opacity: .2;
+      opacity: 0.2;
     }
   }
+}
+%spinnerPulsingEllipsisPopout {
+  background-color: hsla(0, 0%, 0%, 0.6);
+}
+%spinnerPulsingEllipsis %spinnerPulsingEllipsisItem {
+  background-color: $main-color;
 }
